@@ -35,7 +35,7 @@ module.exports = {
     ['NixOS', 20],    
   ],   
   positions: [
-    devops_skills: [docker, docker-compose, nix, knative]    
+    devops_skills: ['docker', 'docker-compose', 'nix', 'knative']    
     {
       title: 'Haskell developer (contractor)',
       project: 'payment system',
