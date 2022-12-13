@@ -35,32 +35,23 @@ module.exports = {
   positions: [   
     {
       title: 'Haskell Software Engineer',
-      project: 'payment system',
-      period: '',
+      project: 'payment system', 
+      period: 'Oct 2021 - Aug 2022 · 11 mos',
       skills: ['Haskell', 'PostgreSQL'],
-      devops_skills: ['docker', 'docker-compose', 'nix', 'knative'],
-      about_the_project: ``,
-      about_used_stack: ``,
-      about_tasks: ``             
+      devops_skills: ['docker', 'docker-compose', 'nix', 'knative']         
     },
     {
       title: 'Haskell Software Engineer',
-      project: 'recruitement web platform',
-      period: '',      
+      project: 'recruitement web platform', 
+      period: 'Mar 2021 - Aug 2021 · 6 mos',
       skills: ['Haskell', 'PostgreSQL'],
-      devops_skills: ['docker', 'docker-compose'],
-      about_the_project: ``,
-      about_used_stack: ``,
-      about_tasks: ``       
+      devops_skills: ['docker', 'docker-compose']      
     },
     {
       title: 'Haskell Software Engineer',
       project: 'develop DSL',
-      period: '',      
-      skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],
-      about_the_project: ``,
-      about_used_stack: ``,
-      about_tasks: ``       
+      period: 'Apr 2019 - Feb 2020 ·10 mos',   
+      skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],     
     },    
     {
       title: 'Blockchain Haskell developer',
@@ -68,44 +59,47 @@ module.exports = {
       period: 'Oct 2017 - Jan 2019 · 1 yr 4 mos',     
       skills: ['Haskell', 'cryptography', 'blockchain consensus algorithms', 'p2p network', 'routing', 'smart-contracts', 'RocksDB'],
       devops_skills: ['rancher', 'docker'],
-      about_the_project: `
-      I have worked as Blockchain Haskell developer on new blockchain generation project.
-      The framework part of the project is open-sourced ​https://github.com/Enecuum/Node
-      and it has decent documentation and explanations about architecture and possibilities:
-      Building network actors with Enecuum Node Framework
-      Why Haskell?
-      Enecuum. Framework possibilities
-      Enecuum.Framework Possibilities, Part 2      
-      `,
-      about_used_stack: `
-      Stack and knowledge
-      *haskell:*
-      Free monads (eDSLs)
-        STM (Software Transactional Memory)
-        Lenses
-        Key Value database - RocksDB
-        
-      *common:*
-      - DevOps: rancher, docker
-      - Metrics: Grafana+Graphite+StatsD
-      - Project tracking: Redmine
-      - Knowledge database: Confluence      
-      `,
-      about_tasks: `
-      research and development in such fields as
-      - ​blockchain related:
-        -- blockchain consensus algorithms (PoW,
-      PoS, PoA)
-        -- p2p network, routing
-        -- tests (integrational, functional)
-        -- smart-contracts, petri-nets, pi-calculus
+      contents: `
+      # Description
+
+      **About the project:** 
+      I have worked as Blockchain Haskell developer on
+      new blockchain generation project. The framework part of the project is
+      open-sourced ​https://github.com/Enecuum/Node and it has decent
+      documentation and explanations about architecture and possibilities:
+      [Building network actors with Enecuum Node Framework](https://gist.github.com/graninas/9beb8df5d88dda5fa21c47ce9bcb0e16)
+      [Why Haskell?](https://enqblockchain.medium.com/why-haskell-eacb087f3adb)
+      [Enecuum. Framework possibilities](https://enqblockchain.medium.com/enecuum-framework-possibilities-d4fa49c3ea40)
+      [Enecuum.Framework Possibilities, Part 2](https://enqblockchain.medium.com/enecuum-framework-possibilities-part-2-7c8ff65c1c4e)
       
-      - common application dev related:
-        -- config management
-        -- cli
-        -- loggingPackages, dependency management via stack.
-        -- parallel computations and processes      
-      `    
+      **About used stack:** 
+      **haskell:** 
+      Free monads (eDSLs) 
+      STM (Software Transactional Memory) 
+      Lenses 
+      Key Value database - RocksDB
+      
+      **common:**
+      
+      -   DevOps: rancher, docker
+      -   Metrics: Grafana+Graphite+StatsD
+      -   Project tracking: Redmine
+      -   Knowledge database: Confluence
+      
+      **About tasks:** 
+      Research and development in such fields as
+      
+      -  blockchain related: 
+      -- blockchain consensus algorithms (PoW, PoS, PoA) 
+      -- p2p network, routing -- tests (integrational, functional) 
+      -- smart-contracts, petri-nets, pi-calculus
+      -  common application dev related: 
+      -- config management 
+      -- cli 
+      -- logging
+      -- Packages, dependency management via stack. 
+      -- parallel computations and processes      
+      `
     },        
   ],
   experience: [
