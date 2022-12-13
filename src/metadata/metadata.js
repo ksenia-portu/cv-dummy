@@ -29,55 +29,37 @@ module.exports = {
     ['Statistics', 50],     
     ['Machine learning', 50],        
     ['Comonads', 50],                             
-  ],
-  devops_skills: [
-    ['Docker', 40],    
-    ['NixOS', 20],    
-  ],   
+  ], 
   positions: [   
     {
       title: 'Haskell developer (contractor)',
       project: 'payment system',
+      period: '',
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose', 'nix', 'knative']       
     },
     {
       title: 'Haskell developer (contractor)',
-      period: 'recruitement web platform',
+      project: 'recruitement web platform',
+      period: '',      
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose']
     },
     {
       title: 'Haskell developer (contractor)',
-      period: 'develop DSL',
+      project: 'develop DSL',
+      period: '',      
       skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],
     },    
     {
       title: 'Blockchain Haskell developer',
-      company: 'Enecuum',
-      compnay_website: 'https://enecuum.com',
       project: 'new generation blockchain',
-      period: 'Oct 2017 - Jan 2019 · 1 yr 4 mos',
+      period: '',     
       skills: ['Haskell', 'cryptography', 'blockchain consensus algorithms', 'p2p network', 'routing', 'smart-contracts', 'RocksDB'],
       devops_skills: ['rancher', 'docker']    
     },        
   ],
   experience: [
-    {
-      header: 'University Lecturer',
-      company: 'Branch of Ural Federal University',
-      skills: ['teaching'],
-      period: 'Sem 2020 - Jun 2021',
-      contents: `
-      I teach such disciplines as
-      - Information System's design
-      - High-level programming languages (Haskell)
-      - Databases
-      - Semantic networks
-      
-      I curate numerous students' programming projects.
-`
-    }
   ]
 };
 
