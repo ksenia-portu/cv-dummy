@@ -34,21 +34,21 @@ module.exports = {
   ], 
   positions: [   
     {
-      title: 'Haskell developer (contractor)',
+      title: 'Haskell Software Engineer',
       project: 'payment system',
       period: '',
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose', 'nix', 'knative']       
     },
     {
-      title: 'Haskell developer (contractor)',
+      title: 'Haskell Software Engineer',
       project: 'recruitement web platform',
       period: '',      
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose']
     },
     {
-      title: 'Haskell developer (contractor)',
+      title: 'Haskell Software Engineer',
       project: 'develop DSL',
       period: '',      
       skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],
