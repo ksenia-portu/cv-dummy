@@ -1,6 +1,6 @@
 module.exports = {
   name: 'Ksenia Portu',
-  title: 'Software engineer, Mathematician, Haskell/Nix fan ',
+  title: 'Software engineer, Mathematician, Haskell/Nix admirer ',
   facts: {
     'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-pozdnyakova"><i class="fa-brands fa-linkedin fact-icon"></i>Ksenia Portu</a>`,
     'Github': `<a href="https://github.com/ksenia-portu"><i class="fa-brands fa-github fact-icon"></i>Ksenia Portu</a>`,    
@@ -56,9 +56,47 @@ module.exports = {
     {
       title: 'Blockchain Haskell developer',
       project: 'new generation blockchain',
-      period: '',     
+      period: 'Oct 2017 - Jan 2019 · 1 yr 4 mos',     
       skills: ['Haskell', 'cryptography', 'blockchain consensus algorithms', 'p2p network', 'routing', 'smart-contracts', 'RocksDB'],
-      devops_skills: ['rancher', 'docker']    
+      devops_skills: ['rancher', 'docker'],
+      about_the_project: `
+      I have worked as Blockchain Haskell developer on new blockchain generation project.
+      The framework part of the project is open-sourced ​https://github.com/Enecuum/Node
+      and it has decent documentation and explanations about architecture and possibilities:
+      Building network actors with Enecuum Node Framework
+      Why Haskell?
+      Enecuum. Framework possibilities
+      Enecuum.Framework Possibilities, Part 2      
+      `,
+      about_used_stack: `
+      Stack and knowledge
+      *haskell:*
+      Free monads (eDSLs)
+        STM (Software Transactional Memory)
+        Lenses
+        Key Value database - RocksDB
+        
+      *common:*
+      - DevOps: rancher, docker
+      - Metrics: Grafana+Graphite+StatsD
+      - Project tracking: Redmine
+      - Knowledge database: Confluence      
+      `,
+      about_tasks: `
+      research and development in such fields as
+      - ​blockchain related:
+        -- blockchain consensus algorithms (PoW,
+      PoS, PoA)
+        -- p2p network, routing
+        -- tests (integrational, functional)
+        -- smart-contracts, petri-nets, pi-calculus
+      
+      - common application dev related:
+        -- config management
+        -- cli
+        -- loggingPackages, dependency management via stack.
+        -- parallel computations and processes      
+      `    
     },        
   ],
   experience: [
@@ -66,7 +104,7 @@ module.exports = {
       header: 'University Lecturer',
       company: 'Branch of Ural Federal University',
       skills: ['teaching'],
-      period: 'Sem 2020 - Jun 2021',
+      period: 'Sem 2020 - Jun 2021 - full university year(two semesters)',
       contents: `
       I taught such disciplines as
       - Information System's design
