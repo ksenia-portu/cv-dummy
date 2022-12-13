@@ -2,8 +2,8 @@ module.exports = {
   name: 'Ksenia Portu',
   title: 'Software engineer, Mathematician, Haskell/Nix fan ',
   facts: {
-    'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-pozdnyakova"><i class="fa-brands fa-twitter fact-icon"></i>Ksenia Portu</a>`,
-    'Github': `<a href="https://github.com/ksenia-portu"><i class="fa-brands fa-twitter fact-icon"></i>Ksenia Portu</a>`,    
+    'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-pozdnyakova"><i class="fa-brands fa-linkedin fact-icon"></i>Ksenia Portu</a>`,
+    'Github': `<a href="https://github.com/ksenia-portu"><i class="fa-brands fa-github fact-icon"></i>Ksenia Portu</a>`,    
     'Email': '<a href="mailto:ksenia.portu@gmail.com"><i class="fa fa-envelope fact-icon"></i>ksenia.portu@gmail.com</a>'
   },
   skills: [
@@ -68,13 +68,13 @@ module.exports = {
       skills: ['teaching'],
       period: 'Sem 2020 - Jun 2021',
       contents: `
-      I teach such disciplines as
+      I taught such disciplines as
       - Information System's design
       - High-level programming languages (Haskell)
       - Databases
       - Semantic networks
 
-      I curate numerous students' programming projects.
+      I curated numerous students' programming projects.
 `
     }    
   ]
