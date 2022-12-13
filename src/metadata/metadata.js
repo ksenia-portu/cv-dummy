@@ -28,7 +28,9 @@ module.exports = {
     ['Linear algebra', 50],      
     ['Statistics', 50],     
     ['Machine learning', 50],        
-    ['Comonads', 50],                             
+    ['Comonads', 50],            
+    ['SQL', 100],    
+    ['Python', 100],                       
   ], 
   positions: [   
     {
