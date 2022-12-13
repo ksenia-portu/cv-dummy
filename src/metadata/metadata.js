@@ -38,20 +38,23 @@ module.exports = {
       project: 'payment system', 
       period: 'Oct 2021 - Aug 2022 · 11 mos',
       skills: ['Haskell', 'PostgreSQL'],
-      devops_skills: ['docker', 'docker-compose', 'nix', 'knative']         
+      devops_skills: ['docker', 'docker-compose', 'nix', 'knative'],
+      contents: ``          
     },
     {
       title: 'Haskell Software Engineer',
       project: 'recruitement web platform', 
       period: 'Mar 2021 - Aug 2021 · 6 mos',
       skills: ['Haskell', 'PostgreSQL'],
-      devops_skills: ['docker', 'docker-compose']      
+      devops_skills: ['docker', 'docker-compose'],
+      contents: ``            
     },
     {
       title: 'Haskell Software Engineer',
       project: 'develop DSL',
       period: 'Apr 2019 - Feb 2020 ·10 mos',   
       skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],     
+      contents: ``      
     },    
     {
       title: 'Blockchain Haskell developer',
