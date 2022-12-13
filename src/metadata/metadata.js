@@ -1,8 +1,9 @@
 module.exports = {
   name: 'Ksenia Portu',
-  title: 'Software engineer, Mathematician, Architect ',
+  title: 'Software engineer, Mathematician, Haskell/Nix fan ',
   facts: {
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
+    'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-pozdnyakova"><i class="fa-brands fa-twitter fact-icon"></i>Ksenia Portu</a>`,
+    'Github': `<a href="https://github.com/ksenia-portu"><i class="fa-brands fa-twitter fact-icon"></i>Ksenia Portu</a>`,    
     'Email': '<a href="mailto:ksenia.portu@gmail.com"><i class="fa fa-envelope fact-icon"></i>ksenia.portu@gmail.com</a>'
   },
   skills: [
@@ -11,50 +12,77 @@ module.exports = {
     ['Functional programming', 100],    
     ['Teaching', 100],      
     ['NixOS', 20],
+    ['Linux', 100],    
     ['Blockchain', 70],
     ['Pi calculus', 80],
+    ['Petri nets', 80],    
+    ['Linear Logic', 80], 
+    ['Session types', 50],  
     ['Git', 100],
+    ['Cryptography', 20],    
+    ['Devops', 20],  
+    ['Research and Software Development', 50],  
+    ['Category theory', 30],      
+    ['Dependent types', 10],      
+    ['Recursion-schemes', 10],        
+    ['Linear algebra', 50],      
+    ['Statistics', 50],     
+    ['Machine learning', 50],        
+    ['Comonads', 50],                             
   ],
+  devops_skills: [
+    ['Docker', 40],    
+    ['NixOS', 20],    
+  ],   
   positions: [
+    devops_skills: [docker, docker-compose, nix, knative]    
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Haskell developer (contractor)',
+      project: 'payment system',
+      skills: ['Haskell', 'PostgreSQL'],
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Haskell developer (contractor)',
+      period: 'recruitement web platform',
+      skills: ['Haskell', 'PostgreSQL'],
+      devops_skills: ['docker', 'docker-compose']
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
+      title: 'Haskell developer (contractor)',
+      period: 'develop DSL',
+      skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],
+    },    
+    {
+      title: 'Blockchain Haskell developer',
+      company: 'Enecuum',
+      compnay_website: 'https://enecuum.com',
+      project: 'new generation blockchain',
+      period: 'Oct 2017 - Jan 2019 · 1 yr 4 mos',
+      skills: ['Haskell', 'cryptography', 'blockchain consensus algorithms', 'p2p network', 'routing', 'smart-contracts', 'RocksDB'],
+      devops_skills: [rancher, docker]    
+    },        
   ],
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: 'University Lecturer',
+      company: 'Branch of Ural Federal University',
+      skills: ['teaching'],
+      period: 'Sem 2020 - Jun 2021',
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
-    },
-    {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
+      I teach such disciplines as
+      - Information System's design
+      - High-level programming languages (Haskell)
+      - Databases
+      - Semantic networks
+      
+      I curate numerous students' programming projects.
 `
     }
   ]
 };
+
+
+
+
+
+
