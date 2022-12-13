@@ -21,14 +21,14 @@ module.exports = {
     ['Git', 100],
     ['Cryptography', 20],    
     ['Devops', 20],  
+    ['Kubernetes', 50], 
     ['Research and Software Development', 50],  
     ['Category theory', 30],      
     ['Dependent types', 10],      
     ['Recursion-schemes', 10],        
     ['Linear algebra', 50],      
     ['Statistics', 50],     
-    ['Machine learning', 50],        
-    ['Comonads', 50],            
+    ['Machine learning', 50],                  
     ['SQL', 100],    
     ['Python', 100],                       
   ], 
@@ -113,7 +113,7 @@ module.exports = {
       header: 'University Lecturer',
       company: 'Branch of Ural Federal University',
       skills: ['teaching'],
-      period: 'Sem 2020 - Jun 2021 - full university year(two semesters)',
+      period: 'Sep 2020 - Jun 2021 - full university year(two semesters)',
       contents: `
       I taught such disciplines as
       - Information System's design
