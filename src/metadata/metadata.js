@@ -60,6 +60,21 @@ module.exports = {
     },        
   ],
   experience: [
+    {
+      header: 'University Lecturer',
+      company: 'Branch of Ural Federal University',
+      skills: ['teaching'],
+      period: 'Sem 2020 - Jun 2021',
+      contents: `
+      I teach such disciplines as
+      - Information System's design
+      - High-level programming languages (Haskell)
+      - Databases
+      - Semantic networks
+
+      I curate numerous students' programming projects.
+`
+    }    
   ]
 };
 
