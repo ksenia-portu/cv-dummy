@@ -34,12 +34,12 @@ module.exports = {
     ['Docker', 40],    
     ['NixOS', 20],    
   ],   
-  positions: [
-    devops_skills: ['docker', 'docker-compose', 'nix', 'knative']    
+  positions: [   
     {
       title: 'Haskell developer (contractor)',
       project: 'payment system',
       skills: ['Haskell', 'PostgreSQL'],
+      devops_skills: ['docker', 'docker-compose', 'nix', 'knative']       
     },
     {
       title: 'Haskell developer (contractor)',
@@ -59,7 +59,7 @@ module.exports = {
       project: 'new generation blockchain',
       period: 'Oct 2017 - Jan 2019 · 1 yr 4 mos',
       skills: ['Haskell', 'cryptography', 'blockchain consensus algorithms', 'p2p network', 'routing', 'smart-contracts', 'RocksDB'],
-      devops_skills: [rancher, docker]    
+      devops_skills: ['rancher', 'docker']    
     },        
   ],
   experience: [
