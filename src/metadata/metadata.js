@@ -39,7 +39,31 @@ module.exports = {
       period: 'Oct 2021 - Aug 2022 · 11 mos',
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose', 'nix', 'knative'],
-      contents: ``          
+      contents: `
+      **About used stack:** 
+      **project1**
+
+      --------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      web framework               Servant
+      database                    PostgreSQL
+      API                         [PostgREST](https://postgrest.org/en/stable/) for hadling requests (PostgREST turns a PostgreSQL database into a RESTful API)
+      message broker              [*RabbitMQ*]{.spurious-link target="RabbitMQ"}
+      in-memory data store        [Redis](https://redis.io/)
+      metrics, events, and logs   [prometheus](https://prometheus.io/), [grafana](https://grafana.com/), [co-log](https://hackage.haskell.org/package/co-log)
+      deploy, CI                  [docker](https://www.docker.com/), [kubernetes](https://kubernetes.io/), [aws](https://aws.amazon.com/) , [circleci](https://circleci.com/), [argo cd](https://argo-cd.readthedocs.io/en/stable/)
+      --------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    
+      **project2**
+    
+      ---------------- ------------------------------------------------
+      web framework    Servant
+      database         PostgreSQL
+      message broker   Kafka
+      devops           Knative (serverless) , Kubernetes, Docker, Nix
+      ---------------- ------------------------------------------------
+    
+      **About tasks:** Backend development, Architecture, Research (Event-Driven-Design, Serverless)
+      `          
     },
     {
       title: 'Haskell Software Engineer',
@@ -47,14 +71,27 @@ module.exports = {
       period: 'Mar 2021 - Aug 2021 · 6 mos',
       skills: ['Haskell', 'PostgreSQL'],
       devops_skills: ['docker', 'docker-compose'],
-      contents: ``            
+      contents: `
+      **About used stack:** 
+      **haskell:** Yesod PostgreSQL
+
+      **About tasks:** Backend development         
+      `            
     },
     {
       title: 'Haskell Software Engineer',
       project: 'develop DSL',
       period: 'Apr 2019 - Feb 2020 ·10 mos',   
       skills: ['Haskell', 'Nix package manager', 'compiler', 'lambda calculus', 'Parsing', 'Type inference', 'Bidirectional typechecker', 'Evaluation'],     
-      contents: ``      
+      contents: `
+      **About used stack:** 
+      **haskell:** 
+      megaparsec
+
+      **About tasks:** 
+      Research and development
+   
+      `      
     },    
     {
       title: 'Blockchain Haskell developer',
