@@ -1,3 +1,4 @@
+[![GitHub CI](https://github.com/ksenia-portu/cv-haskell/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ksenia-portu/cv-haskell/actions)
 # The Curriculum Vitae Template
 
 You are a fantastic developer. Keep your CV on GitHub. Host it on GitHub Pages. Have both HTML and PDF versions automatically generated and consistent.
