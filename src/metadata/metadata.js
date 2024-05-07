@@ -2,7 +2,7 @@ module.exports = {
   name: 'Ksenia Portu',
   title: 'Software engineer, Mathematician, Haskell/Nix admirer ',
   facts: {
-    'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-pozdnyakova"><i class="fa-brands fa-linkedin fact-icon"></i>Ksenia Portu</a>`,
+    'Linkedin': `<a href="https://www.linkedin.com/in/ksenia-portu"><i class="fa-brands fa-linkedin fact-icon"></i>Ksenia Portu</a>`,
     'Github': `<a href="https://github.com/ksenia-portu"><i class="fa-brands fa-github fact-icon"></i>Ksenia Portu</a>`,    
     'Email': '<a href="mailto:ksenia.portu@gmail.com"><i class="fa fa-envelope fact-icon"></i>ksenia.portu@gmail.com</a>'
   },
